@@ -1,0 +1,353 @@
+/* Tablet */
+@media screen and (max-width: 890px) {
+  section {
+    padding: 120px 40px 0;
+  }
+
+  .nav .hiddenNav {
+    width: 35%;
+  }
+
+  .hiddenNav .bar {
+    margin-left: auto;
+    margin-bottom: 35px;
+  }
+
+  .title {
+    font-size: 2.5em;
+  }
+
+  header .titleHeader {
+    font-size: 2.6em;
+  }
+
+  .titleHeader .type {
+    height: 250px;
+  }
+
+  .about {
+    height: max-content;
+  }
+
+  .about .profile {
+    padding-left: 0;
+    padding-top: 0;
+    flex-basis: 20%;
+  }
+
+  .profile img {
+    transform: scale(1);
+  }
+
+  .about .mainAbout {
+    padding-left: 2em;
+    padding-top: 5px;
+  }
+
+  .mainAbout .paraf {
+    margin-top: 15px;
+    width: 95%;
+    font-size: 1.1em;
+    line-height: 1.4em;
+  }
+
+  .mainAbout p.next {
+    padding-top: 15px;
+    font-size: 1.3em;
+  }
+
+  .partikelBola {
+    width: 300px;
+    height: 300px;
+    bottom: -11em;
+  }
+
+  .partikelBola .partikelBolaKecil {
+    width: 250px;
+    height: 250px;
+  }
+
+  .work {
+    padding: 120px 0 50px;
+  }
+
+  .work .workBolaAtas {
+    top: -125px;
+  }
+
+  .work .title {
+    margin: 0;
+  }
+
+  .work .workWeb {
+    margin-top: 0;
+    height: 500px;
+    padding: 0 3em;
+  }
+
+  .workWeb .mainWork {
+    padding-left: 1.1em;
+  }
+
+  .titleWork h2 {
+    font-size: 2.7em;
+    word-spacing: 1.5em;
+  }
+
+  .titleWork h2:nth-child(2) {
+    margin-top: 0;
+  }
+
+  .titleWork p.next {
+    font-size: 1.2em;
+    margin-top: 5px;
+  }
+
+  .mainWork .partikel {
+    bottom: 20px;
+    transform: scale(.8);
+  }
+
+  .workWeb .mainWork:nth-child(1) {
+    padding-left: 0;
+    padding-right: 3em;
+  }
+
+  .skill .partikelBola {
+    bottom: 0;
+    top: -125px;
+    right: -200px;
+  }
+
+  .skill {
+    padding: 80px 60px 40px;
+  }
+
+  .mainSkill {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .mainSkill .contentSkill {
+    flex-basis: 50%;
+    font-size: 2.2em;
+    margin: 10px auto;
+  }
+
+  .contact {
+    padding: 140px 0 90px;
+  }
+
+  .contact .paraf {
+    width: 55%;
+  }
+}
+
+/* Hp */
+@media screen and (max-width: 428px) {
+  .title {
+    font-size: 2.2em;
+  }
+
+  section {
+    padding: 100px 15px 0;
+  }
+
+  .nav {
+    padding: 0 15px;
+    height: 65px;
+  }
+
+  .nav .bar {
+    width: 60px;
+    height: 60px;
+    margin: auto 0;
+  }
+
+  .nav .hiddenNav {
+    width: 50%;
+    padding: 0 15px;
+  }
+
+  .hiddenNav .bar {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-top: 2px;
+  }
+
+  .hiddenNav .title {
+    margin: 8px auto;
+    font-size: 2em;
+  }
+
+  .logo {
+    font-size: 2em;
+  }
+
+  header {
+    width: 100%;
+    height: 350px;
+  }
+
+  header .bg-shadow {
+    width: 300px;
+    height: 300px;
+  }
+
+  header .titleHeader {
+    font-size: 1.4em;
+  }
+
+  .titleHeader .type {
+    height: 150px;
+    left: -25px;
+    width: 2px;
+  }
+
+  .titleHeader .copyRight {
+    right: -6em;
+  }
+
+  .about {
+    padding-top: 90px;
+    height: max-content;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+  }
+
+  .profile img {
+    transform: scale(.7);
+  }
+
+  .about .mainAbout {
+    padding-left: 1em;
+    flex-basis: 90%;
+    height: 350px;
+  }
+
+  .mainAbout .paraf {
+    margin-top: 10px;
+    width: 100%;
+    font-size: .8em;
+    line-height: 1.4em;
+  }
+
+  .mainAbout p.next {
+    padding-top: 10px;
+    font-size: 1em;
+  }
+
+  .partikelBola {
+    width: 180px;
+    height: 180px;
+    bottom: -4em;
+  }
+
+  .partikelBola .partikelBolaKecil {
+    width: 140px;
+    height: 140px;
+  }
+
+  .about .partikelBola {
+    left: -120px;
+  }
+
+  .work {
+    padding: 50px 0;
+  }
+
+  .work .workBolaAtas {
+    left: -120px;
+    top: -116px;
+  }
+
+  .work .workWeb {
+    height: 300px;
+    padding: 0 1.2em;
+  }
+
+  .workWeb .mainWork {
+    padding-left: 0.2em;
+  }
+
+  .titleWork h2 {
+    font-size: 1.6em;
+  }
+
+  .titleWork p.next {
+    font-size: 1em;
+    margin-top: 6px;
+  }
+
+  .mainWork .partikel {
+    bottom: 15px;
+    transform: scale(.5);
+  }
+
+  .workWeb .mainWork:nth-child(1) {
+    padding-left: 0;
+    padding-right: 1.5em;
+  }
+
+  .work .partikelBola {
+    right: -120px;
+  }
+
+  .skill {
+    padding: 40px 20px;
+  }
+
+  .skill .partikelBola {
+    bottom: 0;
+    top: -116px;
+    right: -120px;
+  }
+
+  .mainSkill {
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+  }
+
+  .contentSkill p {
+    padding: 15px 0;
+  }
+
+  .mainSkill .contentSkill {
+    flex-basis: 50%;
+    font-size: 1.3em;
+    margin: 0 auto;
+  }
+
+  .contact .partikelBola {
+    bottom: 0;
+    top: -50px;
+    left: -120px;
+  }
+
+  .contact {
+    padding: 35px 0;
+  }
+
+  .contact .logo {
+    font-size: 1.8em;
+  }
+
+  .contact .paraf {
+    width: 70%;
+    margin: 0px auto 15px;
+    font-size: .8em;
+  }
+
+  .contact .sosmed {
+    width: max-content;
+    font-size: 1.8em;
+    margin: 0 auto;
+  }
+
+  footer {
+    width: 100%;
+    height: 50px;
+    font-size: .8em;
+  }
+}

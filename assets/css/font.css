@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Roboto;
+  src: url('../font/roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: Marvel;
+  src: url('../font/marvel/Marvel-Regular.ttf');
+}
+
+@font-face {
+  font-family: Prompt;
+  src: url('../font/prompt/Prompt-Regular.ttf');
+}
