@@ -1,14 +1,14 @@
-let nav = document.querySelector('.nav');
-let bar = nav.querySelector('.bar');
-let hiddenNav = nav.querySelector('.hiddenNav');
-let barHidden = nav.querySelector('.hiddenNav .bar');
+let nav = document.querySelector(".nav");
+let bar = nav.querySelector(".bar");
+let hiddenNav = nav.querySelector(".hiddenNav");
+let barHidden = nav.querySelector(".hiddenNav .bar");
 
-bar.addEventListener('click', () => {
-	hiddenNav.classList.toggle('active');
+bar.addEventListener("click", () => {
+	hiddenNav.classList.toggle("active");
 });
 
-barHidden.addEventListener('click', () => {
-	hiddenNav.classList.toggle('active');
+barHidden.addEventListener("click", () => {
+	hiddenNav.classList.toggle("active");
 });
 
 let arrow = document.getElementById("arrow");
@@ -61,6 +61,17 @@ const clearAbout = () => {
 		}, 200);
 	}, 200);
 };
+
+let btnMore = document.querySelectorAll("#more");
+btnMore.forEach((more) => {
+	more.addEventListener("click", () => {
+		Swal.fire({
+			title: "Coming Soon",
+			text: "This feature can't be accessed now",
+			icon: "info"
+		});
+	});
+});
 
 let webPersonal = document.getElementsByClassName("webPersonal")[0];
 let landingPage = document.getElementsByClassName("landingPage")[0];
